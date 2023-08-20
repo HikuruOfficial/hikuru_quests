@@ -1,0 +1,57 @@
+[initialize_collection]
+total: u128 = 0u128;
+symbol: u128 = 29032u128;
+base_uri: BaseURI = BaseURI {data0: 0u128, data1: 0u128, data2: 0u128, data3: 0u128};
+
+[add_nft]
+tokenId: TokenId = TokenId {data1: 0u128, data2: 0u128};
+edition: scalar = 0scalar;
+
+[add_minter]
+minter: address = aleo1geqft8epz9kurdv7fqfrwe4l75dw240jvhmt9x7ennftz9gt2q8q86hzjl;
+amount: u8 = 1u8;
+
+[update_toggle_settings]
+toggle_settings_bitstring: u32 = 1u32;
+
+[set_mint_block]
+mint_block: u32 = 1u32;
+
+[update_symbol]
+symbol: u128 = 29032u128;
+
+[update_base_uri]
+base_uri: BaseURI = BaseURI {data0: 0u128, data1: 0u128, data2: 0u128, data3: 0u128};
+
+[open_mint]
+hiding_nonce: scalar = 0scalar;
+
+[mint]
+nft_mint: NFT_mint = NFT_mint {owner: aleo1geqft8epz9kurdv7fqfrwe4l75dw240jvhmt9x7ennftz9gt2q8q86hzjl, amount: 1u8};
+hiding_nonce: scalar = 0scalar;
+
+[claim_nft]
+nft_mint: NFT_mint = NFT_mint {owner: aleo1geqft8epz9kurdv7fqfrwe4l75dw240jvhmt9x7ennftz9gt2q8q86hzjl, amount: 1u8};
+tokenId: TokenId = TokenId {data1: 0u128, data2: 0u128};
+edition: scalar = 0scalar;
+
+[authorize]
+nft: NFT = NFT {owner: address, data: TokenId {data1: 0u128, data2: 0u128}, edition: 0scalar};
+nonce: u64 = 0u64;
+
+[transfer_private]
+nft: NFT = NFT {owner: address, data: TokenId {data1: 0u128, data2: 0u128}, edition: 0scalar};
+receiver: address = aleo1geqft8epz9kurdv7fqfrwe4l75dw240jvhmt9x7ennftz9gt2q8q86hzjl;
+
+[transfer_public]
+receiver: address = aleo1geqft8epz9kurdv7fqfrwe4l75dw240jvhmt9x7ennftz9gt2q8q86hzjl;
+data: TokenId = TokenId {data1: 0u128, data2: 0u128};
+edition: scalar = 0scalar;
+
+[convert_private_to_public]
+nft: NFT = NFT {owner: address, data: TokenId {data1: 0u128, data2: 0u128}, edition: 0scalar};
+
+[convert_public_to_private]
+owner: address = aleo1geqft8epz9kurdv7fqfrwe4l75dw240jvhmt9x7ennftz9gt2q8q86hzjl;
+data: TokenId = TokenId {data1: 0u128, data2: 0u128};
+edition: scalar = 0scalar;
