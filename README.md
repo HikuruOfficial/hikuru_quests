@@ -6,7 +6,7 @@
 
 # Hikuru Quests NFT Smart Contract
 
-![hikuru_quests_nft.aleo](https://explorer.hamp.app/program?id=hikuru_quests_nft.aleo)
+[hikuru_quests_nft.aleo](https://explorer.hamp.app/program?id=hikuru_quests_nft.aleo)
 
 
 Welcome to the Hikuru Quests NFT Smart Contract, an upgraded version of Private Pride specially designed for Hikuru.com. This README provides an overview of the contract's functionality and usage.
