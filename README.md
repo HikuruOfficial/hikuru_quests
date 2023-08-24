@@ -3,7 +3,6 @@
 ![Aleo Badge](https://img.shields.io/badge/Aleo-Developer-1572B6?style=flat-square&logo=aleo&logoColor=white)
 [![License](https://img.shields.io/badge/license-MIT-orange.svg)](https://opensource.org/licenses/MIT)
 
-
 # Hikuru Quests NFT Smart Contract
 
 [hikuru_quests_nft.aleo](https://explorer.hamp.app/program?id=hikuru_quests_nft.aleo)
