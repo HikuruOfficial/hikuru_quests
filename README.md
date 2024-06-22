@@ -116,6 +116,8 @@ transition convert_public_to_private(private owner: address, private data: Token
 
 Convert public ownership of an NFT to private ownership.
 
+
 ## License
 
 This contract is provided under a specific license agreement. Please refer to the license file for more details.
+MIT
